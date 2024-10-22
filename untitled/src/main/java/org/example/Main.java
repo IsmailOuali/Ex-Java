@@ -81,9 +81,25 @@ public class Main {
 //        System.out.println(array);
 
 //        Ex 17
-        array.clear();
+//        array.clear();
 
-        Ex 18
+//        Ex 18
+//        array.isEmpty();
+
+//        Ex 20
+
+        array.ensureCapacity(12);
+
+//        Ex 21
+
+        array.set(1, "Black");
+
+
+//        Ex 22
+        Integer size = array.size();
+        for (int index = 0 ; index < size ; index++){
+            System.out.println(array.get(index));
+        }
 
     }
 
