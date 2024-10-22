@@ -1,9 +1,6 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -46,11 +43,54 @@ public class Main {
 //        Ex 8
 
 //        System.out.println(list.stream().sorted());
-    }
+
+
 
 //    Ex 9
 
 
+//        List<String> it = new ArrayList<>();
+
+//        Collections.copy(it, list);
+
+//        Ex 10
+
+//        Collections.shuffle(it);
+
+//        Ex 11
+//        Collections.reverse(it);
+
+//        Ex 12
+        list.add("Purple");
+        list.add("Cyan");
+        list.add("Orange");
+
+        List<String> sub = list.subList(0,3);
+//        System.out.println(sub);
+
+//        Ex 14
+
+//        Collections.swap(list,0,2);
+
+//        Ex 15
+
+        ArrayList<String> array = new ArrayList<>();
+//
+        array.addAll(list);
+        array.addAll(sub);
+//        System.out.println(array);
+
+//        Ex 17
+        array.clear();
+
+        Ex 18
+
+    }
+
 
 
 }
+
+
+
+
